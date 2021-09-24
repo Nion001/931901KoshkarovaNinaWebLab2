@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+
+.content {
+  margin: 8px;
+  padding: 0px;
+  background: aqua;
+  border: 3px solid green;
+  margin-bottom: 80px;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background: bisque;
+}
+
+.right {
+  margin-left: 30%;
+  background: darkgray;
+}
+
+
+
+@media (max-width: 750px) {
+
+  .li {
+    display: inline;
+       
+  }
+  .ul {
+    list-style: none;
+    margin:0;
+    padding-left: 50px;
+  }
+
+
+.left {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+  background: bisque;
+  display:block;
+}
+
+.right {
+  margin-top:4rem;
+  margin-left:0;
+  width: 100%;
+  background: darkgray;
+  display:block;
+}
+}

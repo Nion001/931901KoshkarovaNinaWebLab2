@@ -1,0 +1,14 @@
+.table {
+  width:100%;
+  display: table;
+  border: solid green 2px;
+}
+
+.cell {
+  display: table-cell;
+  background: aqua;
+}
+
+.image {
+  float:right;
+}

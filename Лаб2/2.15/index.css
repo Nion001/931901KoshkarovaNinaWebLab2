@@ -1,0 +1,12 @@
+.block {
+  height: 100px;
+  width: 200px;
+  background: aqua;
+  display:inline-block;
+  margin:10px;
+}
+.block1 {
+  width: 100%;
+  background: bisque;
+}
+

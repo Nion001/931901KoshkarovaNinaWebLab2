@@ -1,0 +1,50 @@
+* {color:white;}
+
+.a {
+  width: 200px;
+  height: 100px;
+  background: blueviolet;
+  position:static;
+}
+
+.b {
+  width: 200px;
+  height: 100px;
+  background: darkred;
+  position:relative;
+}
+
+.c {
+  width: 200px;
+  height: 100px;
+  background: peru;
+  position:relative;
+  left:30px;
+  bottom:30px;
+}
+
+.d {
+  width: 600px;
+  height: 400px;
+  background: indianred;
+  position:relative;
+}
+
+.e {
+  width: 300px;
+  height: 200px;
+  background: indigo;
+  position:absolute;
+  right:0;
+  top:100px;
+}
+
+.f {
+  width: 200px;
+  height: 100px;
+  background: forestgreen;
+  position:fixed;
+  right:0;
+  bottom:0;
+  z-index:-1;
+}
